@@ -28,9 +28,8 @@
   /* APP BACKGROUND */
   --background-shading-percent: 100%;
   --background-image: url(https://raw.githubusercontent.com/AlphaTriton/ClearVision-v7-personal-modification/refs/heads/master/screenshots/2025-02-22%2021_35_59-BREAK%20ARTS%20III.png);
-  /*--background-size: cover; / app background size [default: cover] */
   --background-attachment: fixed;
-  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  --background-filter: saturate(calc(var(--saturation-factor, 0.5) * 1));
   /* USER POPOUT BACKGROUND */
   --user-popout-image: var(--background-image);
   --user-popout-attachment: var(--background-attachment);
@@ -83,7 +82,7 @@
 /* ONYX THEME */
 :is(.theme-midnight, .theme-light .theme-midnight) {
   --background-shading: rgba(0, 0, 0, 0.349);
-  --card-shading: rgba(0, 0, 0, 0.4);
+  --card-shading: rgba(0, 0, 0, 0.3);
   --popout-shading: rgba(0, 0, 0, 0.8);
   --modal-shading: rgba(0, 0, 0, 0.6);
   --input-shading: rgba(255, 255, 255, 0.05);

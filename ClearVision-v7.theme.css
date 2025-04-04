@@ -95,3 +95,24 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+
+/* Make Channel and Server sidebars the same darker shade to match previous modification */
+.visual-refresh .privateChannels__35e86 {
+    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
+}
+
+.visual-refresh .guilds_c48ade {
+    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
+}
+
+.visual-refresh .container_2637a {
+    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
+}
+
+:is(.theme-dark, .theme-light) .themed__9293f {
+    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.15));
+}
+
+.visual-refresh :is(.chatContent_f75fb0,.scroller__28a87) {
+    background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.15));
+}

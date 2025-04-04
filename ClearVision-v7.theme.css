@@ -113,14 +113,24 @@
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
 }
 
+.visual-refresh .sidebarList_c48ade { /* Necessary override because the rounded border is kept for god know what */
+    border-top-left-radius: 0px;
+}
+
+.visual-refresh .peopleColumn__133bf {
+    background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.15));
+}
+
 :is(.theme-dark, .theme-light) .themed__9293f {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.15));
 }
 
 .visual-refresh :is(.chatContent_f75fb0,.scroller__28a87) {
     background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.15));
-}
-
-.visual-refresh .peopleColumn__133bf {
-    background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.15));
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 8px;
 }

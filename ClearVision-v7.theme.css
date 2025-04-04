@@ -97,35 +97,47 @@
 /* ADD ADDITIONAL CSS BELOW HERE */
 
 /* Make Channel and Server sidebars the same darker shade to match previous modification */
-.visual-refresh .privateChannels__35e86 {
-    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
+.visual-refresh .privateChannels__35e86 { /* Sidebar Friend, GC List */
+    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.47));
 }
 
-.visual-refresh .guilds_c48ade {
-    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
+.visual-refresh .guilds_c48ade { /* Sidebar Servers List */
+    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.47));
 }
 
-.visual-refresh .container_2637a {
-    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
+.visual-refresh .container__2637a { /*Sidebar Channels List */
+    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.47));
 }
 
-.visual-refresh .panels_c48ade {
-    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
+.visual-refresh .panels_c48ade { /* User, Mute, Deafen, Settings Panel */
+    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.47));
 }
 
-.visual-refresh .sidebarList_c48ade { /* Necessary override because the rounded border is kept for god know what */
+.visual-refresh .sidebarList_c48ade { /* Necessary override because the rounded border is kept in the sidebar for god knows what */
     border-top-left-radius: 0px;
 }
 
-.visual-refresh .peopleColumn__133bf {
+.backdrop__7833s.withLayer__78332 { /* Necessary to decrease shading for expanded images */
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.visual-refresh .sidebarRegionScroller__23e6b { /* Settings Sidebar */
+    background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.47));
+}
+
+.contentRegion__23e6b { /* Settings Panel */
+    background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.3));
+}
+
+.visual-refresh .peopleColumn__133bf { /* Expanded Friendslist */
     background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.15));
 }
 
-:is(.theme-dark, .theme-light) .themed__9293f {
+:is(.theme-dark, .theme-light) .themed__9293f { /* Channel Name, Pins, Threads, Search Bar Panel */
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.15));
 }
 
-.visual-refresh :is(.chatContent_f75fb0,.scroller__28a87) {
+.visual-refresh :is(.chatContent_f75fb0,.scroller__28a87) { /* Overrides Chat Content Shading */
     background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.15));
     border-radius: 0;
     border: none;
@@ -133,4 +145,13 @@
     left: 0;
     bottom: 0;
     padding: 8px;
+}
+
+/* Hide Header/Top Bar */
+.visual-refresh {
+  --custom-app-top-bar-height: 0; /* removes hardcoded space to allow lower elements to ascend */
+}
+
+.bar_c38106 { /* Hides Header/Top Bar elements */
+  display: none;
 }

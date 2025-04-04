@@ -109,10 +109,18 @@
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
 }
 
+.visual-refresh .panels_c48ade {
+    background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.55));
+}
+
 :is(.theme-dark, .theme-light) .themed__9293f {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.15));
 }
 
 .visual-refresh :is(.chatContent_f75fb0,.scroller__28a87) {
+    background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.15));
+}
+
+.visual-refresh .peopleColumn__133bf {
     background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.15));
 }

@@ -87,7 +87,11 @@
   --modal-shading: rgba(0, 0, 0, 0.6);
   --input-shading: rgba(255, 255, 255, 0.05);
   --normal-text: rgb(255, 255, 255);
-  --muted-text: rgb(219, 219, 219);;
+  --muted-text: rgb(219, 219, 219);
+
+/*   modified channel and friendlist text colors to be readable */
+  --channels-default: #cecece;
+  --text-tertiary: #cecece;
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */

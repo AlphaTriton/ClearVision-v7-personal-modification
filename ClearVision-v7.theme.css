@@ -27,7 +27,8 @@
   --offline-color: #808080;
   /* APP BACKGROUND */
   --background-shading-percent: 100%;
-  --background-image: url(https://raw.githubusercontent.com/henry232323/Homestuck-ClearVision/master/clearvision-john.JPG);
+  --background-image: url(https://raw.githubusercontent.com/AlphaTriton/ClearVision-v7-personal-modification/refs/heads/master/screenshots/BRRRRRRRT.5lowsize.png);
+  --background-size: cover; /* app background size [default: cover] */
   --background-attachment: fixed;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
   /* USER POPOUT BACKGROUND */

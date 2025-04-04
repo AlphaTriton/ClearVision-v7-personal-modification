@@ -157,3 +157,16 @@
 .bar_c38106 { /* Hides Header/Top Bar elements */
   display: none;
 }
+
+/* Color Matching */
+.unreadImportant__2ea32 { /* Channels Unread */
+  background-color: var(--main-color);
+}
+
+.item_58105 { /* Servers Unread */
+  background-color: var(--main-color);
+}
+
+.numberBadge__2b1f5.base__2b1f5.eyebrow__2b1f5.baseShapeRound__2b1f5 {
+  background-color: var(--main-color) !important;
+}

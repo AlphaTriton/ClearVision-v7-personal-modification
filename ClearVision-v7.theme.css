@@ -86,8 +86,8 @@
   --popout-shading: rgba(0, 0, 0, 0.8);
   --modal-shading: rgba(0, 0, 0, 0.6);
   --input-shading: rgba(255, 255, 255, 0.05);
-  --normal-text: #dcdcde;
-  --muted-text: #86868e;
+  --normal-text: rgb(255, 255, 255);
+  --muted-text: rgb(219, 219, 219);;
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */

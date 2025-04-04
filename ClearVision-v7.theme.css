@@ -92,6 +92,8 @@
 /*   modified channel and friendlist text colors to be readable */
   --channels-default: #cecece;
   --text-tertiary: #cecece;
+  --icon-default: rgba(255, 255, 255, 1);
+  --icon-tertiary: rgba(255, 255, 255, 1);
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
